@@ -4,10 +4,11 @@
 	object-fit: cover;
 	width: 240px;
 	height: 240px;
+	border-radius: 25px;
 }
 
 body{
-	background: linear-gradient(45deg, white,black) ;
+	background: linear-gradient(45deg, #bdc3c7, #2c3e50) ;
 	font-family: monospace;
 }
 .hero-image{
@@ -43,7 +44,11 @@ body{
      padding : .099rem;
      outline: none;
      text-align: center;
+     opacity: 0.7;
+}
 
+.form-class :hover{
+	opacity: 1;
 }
 .form-class button{
 	width: 40%;
@@ -55,9 +60,12 @@ body{
 	border: none;
 	border-radius: .3rem;
 	padding: .09rem;
-	margin-top: .5rem;  
+	margin-top: .5rem;
+	opacity: 0.7;  
 }
-
+.form-class button:hover{
+	opacity: 1;
+}
 /* products section */
 
 .products{
@@ -72,6 +80,11 @@ body{
      float: left;
      width: 30%;
      margin-left: 1rem;
+     color: black;
+}
+.product-list-item:hover{
+	opacity: 0.75;
+	color: #343224;
 }
 
 @media screen and(max-width: 700px)
