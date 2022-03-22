@@ -11,9 +11,57 @@ body{
 	background: linear-gradient(45deg, #bdc3c7, #2c3e50) ;
 	font-family: monospace;
 }
+nav{
+	position: fixed;
+	top :0;
+	left : 0;
+	width: 100%;
+	height: 60px;
+	padding: 2px 90px;
+	box-sizing: border-box;
+	background:linear-gradient(45deg,#794A17, #5F6C79);
+	opacity: 0.3;
+	border-bottom: 1px solid #fff;
+}
+
+nav:hover{
+	opacity: 1;
+}
+nav h1{
+	padding: 2px 15px;
+	height: 50px;
+	float: left;
+	font-size: 20px;
+	color: #fff;	
+}
+
+nav ul{
+	list-style: none;
+	float: right;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav ul li a{
+	line-height: 80px;
+	color: #fff;
+	padding: 2px 15px; /*space bw text and border , space between elements*/
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+nav ul li a:hover{
+	background: rgba(0,0,0,0.2);
+	border-radius: 5px;
+
+}
 .hero-image{
 	background : url(myCycle.jpg);
 	height : 100vh;
+	width: 100%;
 	background-size : cover;
 	position : relative; 
 }
