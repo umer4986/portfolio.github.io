@@ -81,9 +81,10 @@ body{
      width: 30%;
      margin-left: 1rem;
      color: black;
+     opacity: 0.8;
 }
 .product-list-item:hover{
-	opacity: 0.75;
+	opacity: 1;
 	color: #343224;
 }
 
