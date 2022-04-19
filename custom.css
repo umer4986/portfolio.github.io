@@ -11,6 +11,7 @@ body{
 	background: linear-gradient(45deg, #bdc3c7, #2c3e50) ;
 	font-family: monospace;
 }
+
 nav{
 	position: fixed;
 	top :0;
