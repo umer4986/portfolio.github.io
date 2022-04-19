@@ -132,12 +132,22 @@ nav ul li a:hover{
      margin-left: 1rem;
      color: black;
      opacity: 0.8;
+     text-align: center;
 }
 .product-list-item:hover{
 	opacity: 1;
 	color: #343224;
 }
+.product-list-item h2{
+	margin-top: 0.1em;
+	margin-bottom: 0.4em;
+}
 
+.product-list-item p{
+	margin-top: -0.5em;
+	margin-bottom: 2em;
+
+}
 
 
 
