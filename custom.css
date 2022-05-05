@@ -132,8 +132,8 @@ nav ul li a:hover{
 
 .product-list-item{
      float: left;
-     width: 20%;
-     height: 20%;
+     width: 200px;
+     height: 250px;
      margin:0;
      margin-left: 1rem;
      color: black;
