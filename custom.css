@@ -3,6 +3,7 @@
 body{
 	background: linear-gradient(45deg, #bdc3c7, #2c3e50) ;
 	font-family: monospace;
+	min-width: 400px;
 }
 
 nav{
@@ -14,12 +15,12 @@ nav{
 	padding: 2px 90px;
 	box-sizing: border-box;
 	background:linear-gradient(45deg,#794A17, #5F6C79);
-	opacity: 0.3;
+	opacity: 0.2;
 	border-bottom: 1px solid #fff;
 }
 
 nav:hover{
-	opacity: 0.85;
+	opacity: 1;
 }
 nav h1{
 	padding: -6px 15px;
@@ -28,6 +29,7 @@ nav h1{
 	float: left;
 	font-size: 20px;
 	color: #fff;	
+	min-width: 400px;
 }
 
 nav ul{
@@ -45,14 +47,44 @@ nav ul li a{
 	text-decoration: none;
 	font-size: 12px;
 	font-weight: bold;
-	text-transform: uppercase;
+	text-transform: uppercase;	
 }
 
 nav ul li a:hover{
 	background: rgba(0,0,0,0.2);
 	border-radius: 5px;
-
 }
+
+@media(max-width: 700px){
+	nav{
+		height: 70px;
+	}
+
+	nav h1{
+		float: none;
+		text-align: center;
+		padding-bottom: 0;
+	}
+
+	nav ul{
+		float: none;
+		text-align: center;
+		width: 100%;
+		margin-top: -40px;
+		margin-left: -20px;
+		padding: -20px;
+	}
+
+	nav ul li{
+		margin-top: -35px;
+		width: 50px;
+		padding: 0px 10px;
+	}
+	nav ul li a{
+		padding: 0px 2px;
+	}
+}
+
 .hero-image{
 	background : url(myCycle.jpg);
 	height : 100vh;
@@ -61,6 +93,7 @@ nav ul li a:hover{
 	background-size : cover;
 	position : relative; 
 	border: 1px gray solid;
+	min-width: 400px;
 }
 .hero-wrapper{
 	color: white;
@@ -69,6 +102,7 @@ nav ul li a:hover{
 	left : 50%;
 	transform : translate(-50%,-50%); 
 	text-align: center;
+	min-width: 400px;
 }
 .hero-wrapper h1 {
 	font-size: 2.4rem;
@@ -152,6 +186,13 @@ nav ul li a:hover{
 .product-list-item p{
 	margin-top: -0.5em;
 	margin-bottom: 2em;
+}
+
+@media(max-width: 700px){
+	.image-responsive{
+		width: 120%;
+	}
+
 }
 
 
