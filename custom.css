@@ -192,8 +192,6 @@ nav ul li a:hover{
 @media(max-width: 470px){
      .product-list-item{
      	width: 90%;
-     	height: 80%;
-
      }
     } 
 .footer{
