@@ -118,37 +118,21 @@ nav ul li a:hover{
 	text-align: center;
 }
 
-.form-class .form-input-class {
-     display : block;
-     width : 90%;
-     margin-left: auto;
-     margin-right: auto;
-     border-radius: 2rem;
-     border : none;
-     padding : .099rem;
-     outline: none;
-     text-align: center;
-     opacity: 0.7;
+.hero-wrapper button{
+	color: black;
+	border:none;
+	border-radius: 10px;
+	padding:3px 10px;
+	opacity: 0.6;
 }
 
-.form-class :hover{
-	opacity: 1;
+.hero-wrapper button:hover{
+    opacity: 1;
+	transform: scale(1.1);
 }
-.form-class button{
-	width: 40%;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-	background-color: darkgrey;
-	color: white;
-	border: none;
-	border-radius: .3rem;
-	padding: .09rem;
-	margin-top: .5rem;
-	opacity: 0.7;  
-}
-.form-class button:hover{
-	opacity: 1;
+
+.hero-wrapper button:active{
+	transform: scale(0.9);
 }
 /* products section */
 
