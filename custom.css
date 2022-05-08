@@ -25,14 +25,13 @@ nav:hover{
 }
 nav h1{
 	padding: -6px 15px;
-	padding-right:-40px ;
+	padding-right:-4px ;
 	margin-right: -40px;
 	margin-left: -55px;
 	height: 50px;
 	float: left;
 	font-size: 20px;
 	color: #fff;	
-	min-width: 150px;
 }
 
 nav ul{
@@ -62,31 +61,37 @@ nav ul li a:hover{
 
 @media(max-width: 700px){
 	nav{
-		height: 70px;
+		height: 60px;
 	}
 
 	nav h1{
 		float: none;
 		text-align: center;
 		padding-bottom: 0;
+		margin-top:1px;
 	}
 
 	nav ul{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
 		float: none;
 		text-align: center;
 		width: 100%;
-		margin-top: -40px;
+		margin-top: -35px;
 		margin-left: -20px;
 		padding: -20px;
 	}
 
 	nav ul li{
+		float:none;
 		margin-top: -35px;
 		width: 50px;
-		padding: 0px 10px;
+		padding: 0px 4%;
 	}
 	nav ul li a{
-		padding: 0px 2px;
+		padding: 0px 0px;
+		float:none;
 	}
 }
 
