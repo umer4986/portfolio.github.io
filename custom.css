@@ -172,6 +172,11 @@ nav ul li a:hover{
 .product-list-item:hover{
 	opacity: 1;
 	color: #FFFFFF;
+	transform: scale(1.01);
+}
+
+.product-list-item:active{
+	transform: scale(0.99);
 }
 .product-list-item h2{
 	margin-top: 0;
