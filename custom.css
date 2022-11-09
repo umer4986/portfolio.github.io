@@ -12,14 +12,14 @@ body{
     height:100%;
     position:fixed;
     z-index:9999;
-    background:url("/loadingdots.gif") no-repeat center center rgb(255, 255, 255)
+    background-color: rgb(255, 255, 255)
 }
 
 #load img{
-	width:100px;
+	width:45px;
 	position: absolute;
 	top:30%;
-	left: 45%;
+	left: 47%;
 }
 
 nav{
